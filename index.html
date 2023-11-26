@@ -3,29 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-    <title>Our Cargo Forms</title>
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        overflow-y: hidden;
-        overflow-x: hidden;
-      }
-      .gform {
-        border: 0;
-        min-width: 100%;
-        min-height: 100vh;
-      }
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="/ourcargo-logo.png" />
+    <link rel="stylesheet" href="index.css" />
+    <title>OurCargo's Order Forms</title>
   </head>
   <body>
-    <iframe src="https://forms.gle/KvmLnY3kfvNR2ubB7" class="gform"></iframe>
+    <section class="card-container">
+      <section class="card-title-container">
+        <h1>OURCARGO</h1>
+        <p>welcome to ourcargo's order form!</p>
+      </section>
+      <section class="card-content-container">
+        <section class="card-logo">
+          <img src="./ourcargo-logo.png" alt="ourcargo logo" />
+        </section>
+        <section class="card-call-to-action">
+          <a href="/google-form.html">Order Now!</a>
+          <p>Maximum boxes: 4</p>
+          <p>Maximum items per box: 10</p>
+        </section>
+      </section>
+    </section>
+
     <!-- Google tag (gtag.js) -->
+    <script src="./index.js"></script>
     <script
       async
-      src="https://www.googletagmanager.com/gtag/js?id=G-CGHPM3M9K2"></script>
+      src="https://www.googletagmanager.com/gtag/js?id=G-CGHPM3M9K2"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
